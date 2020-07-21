@@ -79,6 +79,6 @@ function deleteBookmark(link){
         }
     });
     localStorage.setItem('items',JSON.stringify(user_list));
-    window.location = '/';
+    location.reload();
     
 }
